@@ -98,6 +98,41 @@ export default function NotreCarte() {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto space-y-16">
+            {/* Burgers Signatures - En haut */}
+            <div className="space-y-8">
+              <div className="text-center space-y-4">
+                <Badge variant="default" className="text-lg px-6 py-2">
+                  NOS SIGNATURES
+                </Badge>
+                <h2 className="text-3xl md:text-4xl font-bold">Nos Burgers Signatures</h2>
+                <p className="text-muted-foreground">Nos créations exclusives</p>
+              </div>
+              <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <Card className="border-2 border-accent hover:shadow-lg transition-shadow bg-accent/5">
+                  <CardHeader>
+                    <div className="flex items-start justify-between gap-2">
+                      <CardTitle className="text-2xl">L&apos;ENDÉMIQUE</CardTitle>
+                      <span className="text-2xl font-bold text-accent shrink-0">12€</span>
+                    </div>
+                    <CardDescription className="text-base leading-relaxed pt-2">
+                      Pain boulanger, steak de boeuf*, comté, bacon, oignons confits, sauce maison
+                    </CardDescription>
+                  </CardHeader>
+                </Card>
+                <Card className="border-2 border-accent hover:shadow-lg transition-shadow bg-accent/5">
+                  <CardHeader>
+                    <div className="flex items-start justify-between gap-2">
+                      <CardTitle className="text-2xl">JURASSIQUE</CardTitle>
+                      <span className="text-2xl font-bold text-accent shrink-0">11€</span>
+                    </div>
+                    <CardDescription className="text-base leading-relaxed pt-2">
+                      Pain boulanger, steak de boeuf*, morbier, salade, mayonnaise
+                    </CardDescription>
+                  </CardHeader>
+                </Card>
+              </div>
+            </div>
+
             {/* Formules Burgers */}
             <div className="space-y-8">
               <div className="text-center space-y-4">
@@ -250,41 +285,6 @@ export default function NotreCarte() {
                   NOTRE SAUCE MAISON EST COMPOSÉE DE MAYONNAISE, KETCHUP, OIGNONS JAUNES ET CORNICHONS MIXÉES PUIS
                   AGRÉMENTÉE DE VINAIGRE DE VIN ROUGE
                 </p>
-              </div>
-            </div>
-
-            {/* Burgers Signatures */}
-            <div className="space-y-8">
-              <div className="text-center space-y-4">
-                <Badge variant="default" className="text-lg px-6 py-2">
-                  NOS SIGNATURES
-                </Badge>
-                <h2 className="text-3xl md:text-4xl font-bold">Nos Burgers Signatures</h2>
-                <p className="text-muted-foreground">Nos créations exclusives</p>
-              </div>
-              <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-                <Card className="border-2 border-accent hover:shadow-lg transition-shadow bg-accent/5">
-                  <CardHeader>
-                    <div className="flex items-start justify-between gap-2">
-                      <CardTitle className="text-2xl">L&apos;ENDÉMIQUE</CardTitle>
-                      <span className="text-2xl font-bold text-accent shrink-0">12€</span>
-                    </div>
-                    <CardDescription className="text-base leading-relaxed pt-2">
-                      Pain boulanger, steak de boeuf*, comté, bacon, oignons confits, sauce maison
-                    </CardDescription>
-                  </CardHeader>
-                </Card>
-                <Card className="border-2 border-accent hover:shadow-lg transition-shadow bg-accent/5">
-                  <CardHeader>
-                    <div className="flex items-start justify-between gap-2">
-                      <CardTitle className="text-2xl">JURASSIQUE</CardTitle>
-                      <span className="text-2xl font-bold text-accent shrink-0">11€</span>
-                    </div>
-                    <CardDescription className="text-base leading-relaxed pt-2">
-                      Pain boulanger, steak de boeuf*, morbier, salade, mayonnaise
-                    </CardDescription>
-                  </CardHeader>
-                </Card>
               </div>
             </div>
 
