@@ -1,0 +1,11 @@
+# Robots.txt pour L'Endémique
+# https://www.lendemique.fr
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.lendemique.fr/sitemap.xml
+
+# Disallow admin or private pages (if any)
+Disallow: /api/
