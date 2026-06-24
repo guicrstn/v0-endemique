@@ -18,21 +18,18 @@ export function Hero() {
         />
       </div>
 
-      <div className="container mx-auto px-4 py-20 relative z-10">
+      <div className="container mx-auto px-4 py-28 relative z-10">
         <div className="flex flex-col items-center text-center space-y-8">
-          {/* Logo */}
-          <div className="w-64 h-64 md:w-80 md:h-80 relative animate-fade-in">
-            <Image src="/logo.png" alt="L'Endémique Logo" fill className="object-contain" priority />
-          </div>
-
-          {/* Tagline */}
-          <div className="space-y-4 max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
-              Des burgers qui prennent leur envol
-            </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto text-pretty">
-              Food truck mobile pour vos événements et communes - Produits frais, locaux et fait maison
-            </p>
+          {/* Affiche */}
+          <div className="relative w-full max-w-md animate-fade-in">
+            <Image
+              src="/affiche-endemique.jpg"
+              alt="Affiche L'Endémique - Burgers gourmands et authentiques, produits locaux, événements, fait maison"
+              width={1040}
+              height={1500}
+              className="w-full h-auto rounded-xl shadow-2xl"
+              priority
+            />
           </div>
 
           {/* CTA */}
