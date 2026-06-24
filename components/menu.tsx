@@ -5,24 +5,24 @@ import Link from "next/link"
 
 const featuredBurgers = [
   {
-    name: "Le Burger",
-    description: "Pain boulanger - Steak de bœuf - Comté ou Morbier - Salade - Sauce maison",
-    price: "À partir de 10€",
-  },
-  {
-    name: "Le Burger XL",
-    description: "Pain boulanger - Steak de bœuf - Comté ou Morbier - Salade - Tomate - Oignons rouges",
-    price: "À partir de 12€",
-  },
-  {
-    name: "Pain Américain",
-    description: "Demi flûte - Steak de bœuf - Comté ou Morbier - Salade - Tomate - Oignons rouges",
-    price: "À partir de 14€",
-  },
-  {
     name: "L'Endémique",
-    description: "Notre burger signature - Une création unique qui nous représente",
-    price: "Notre spécialité",
+    description: "Pain boulanger - Steak de bœuf - Comté - Bacon - Oignons confits - Sauce maison",
+    price: "13€",
+  },
+  {
+    name: "Le Classique",
+    description: "Pain boulanger - Steak de bœuf - Comté ou Morbier - Salade - Sauce maison",
+    price: "10€",
+  },
+  {
+    name: "Le Jurassique",
+    description: "Pain boulanger - Steak de bœuf - Morbier - Salade - Mayonnaise",
+    price: "11€",
+  },
+  {
+    name: "Le Végétarien",
+    description: "Pain boulanger - Salade - Tomate - Oignons rouges - Cornichons - Comté ou Morbier - Sauce maison",
+    price: "11€",
   },
 ]
 

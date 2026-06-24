@@ -71,11 +71,18 @@ export function Footer() {
                 06 22 83 86 45
               </a>
               <a
-                href="mailto:contact@lendemique.fr"
+                href="tel:0608732075"
+                className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
+              >
+                <Phone className="w-4 h-4" />
+                06 08 73 20 75
+              </a>
+              <a
+                href="mailto:lendemique01@outlook.com"
                 className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
               >
                 <Mail className="w-4 h-4" />
-                contact@lendemique.fr
+                lendemique01@outlook.com
               </a>
 
               <div className="flex gap-4 pt-4">

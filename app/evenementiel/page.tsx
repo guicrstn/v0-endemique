@@ -167,7 +167,7 @@ export default function Evenementiel() {
                   size="lg"
                   className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8"
                   onClick={() =>
-                    (window.location.href = "mailto:contact@lendemique.fr?subject=Demande de devis événementiel")
+                    (window.location.href = "mailto:lendemique01@outlook.com?subject=Demande de devis événementiel")
                   }
                 >
                   <Mail className="w-5 h-5 mr-2" />
@@ -187,8 +187,8 @@ export default function Evenementiel() {
               <div className="pt-6 border-t border-border space-y-2">
                 <p className="font-semibold text-lg">Coordonnées</p>
                 <p className="text-muted-foreground">
-                  <a href="mailto:contact@lendemique.fr" className="hover:text-accent transition-colors">
-                    contact@lendemique.fr
+                  <a href="mailto:lendemique01@outlook.com" className="hover:text-accent transition-colors">
+                    lendemique01@outlook.com
                   </a>
                 </p>
                 <p className="text-muted-foreground">

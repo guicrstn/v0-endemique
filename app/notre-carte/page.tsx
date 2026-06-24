@@ -43,38 +43,6 @@ export default function NotreCarte() {
     },
   ]
 
-  const burgerDetails = [
-    {
-      name: "LE LOUSTIK'",
-      description: "DEMI PAIN BURGER - STEAK DE BŒUF* – COMTE - SAUCE AU CHOIX KETCHUP/MAYO/SAUCE MAISON)",
-    },
-    {
-      name: "LE BURGER",
-      description: "PAIN BOULANGER - STEAK DE BŒUF* - COMTE OU MORBIER - SALADE SAUCE MAISON",
-    },
-    {
-      name: "LE BURGER XL",
-      description:
-        "PAIN BOULANGER - STEAK DE BŒUF* - COMTE OU MORBIER – SALADE – TOMATE - OIGNONS ROUGES - SAUCE MAISON",
-    },
-    {
-      name: "LE BURGER DOUBLE XL",
-      description: "PAIN BOULANGER – STEAK DE BŒUF* X2 COMTE OU MORBIER X2 – SALADE – TOMATE – OIGNONS ROUGES",
-    },
-    {
-      name: "LE BURGER VEGETARIEN",
-      description: "PAIN BOULANGER – SALADE – TOMATE - OIGNONS ROUGES – CORNICHONS - COMTE OU MORBIER - SAUCE MAISON",
-    },
-    {
-      name: "PAIN AMÉRICAIN",
-      description: "DEMI FLÛTE - STEAK DE BŒUF* - COMTE OU MORBIER – SALADE – TOMATE - OIGNONS ROUGES - SAUCE MAISON",
-    },
-    {
-      name: "PAIN AMÉRICAIN XL",
-      description: "DEMI FLÛTE - STEAK DE BŒUF* X2 - COMTE OU MORBIER X2 SALADE – TOMATE - OIGNONS ROUGES",
-    },
-  ]
-
   return (
     <main className="min-h-screen">
       <Navigation />
@@ -264,28 +232,12 @@ export default function NotreCarte() {
               </Card>
             </div>
 
-            {/* Détails des Menus */}
-            <div className="space-y-8 bg-muted/30 p-8 rounded-xl">
-              <div className="text-center space-y-4">
-                <h2 className="text-3xl md:text-4xl font-bold">CARTE DU MOMENT</h2>
-                <p className="text-muted-foreground">Composition détaillée de nos burgers</p>
-              </div>
-              <div className="space-y-4">
-                {burgerDetails.map((burger, index) => (
-                  <Card key={index} className="hover:shadow-lg transition-shadow">
-                    <CardHeader>
-                      <CardTitle className="text-lg mb-2">{burger.name}</CardTitle>
-                      <CardDescription className="text-sm leading-relaxed">{burger.description}</CardDescription>
-                    </CardHeader>
-                  </Card>
-                ))}
-              </div>
-              <div className="text-center mt-8">
-                <p className="text-sm text-muted-foreground italic">
-                  NOTRE SAUCE MAISON EST COMPOSÉE DE MAYONNAISE, KETCHUP, OIGNONS JAUNES ET CORNICHONS MIXÉES PUIS
-                  AGRÉMENTÉE DE VINAIGRE DE VIN ROUGE
-                </p>
-              </div>
+            {/* Phrase Sauce Maison */}
+            <div className="text-center bg-muted/30 p-8 rounded-xl">
+              <p className="text-sm md:text-base text-muted-foreground italic">
+                NOTRE SAUCE MAISON EST COMPOSÉE DE MAYONNAISE, KETCHUP, OIGNONS JAUNES ET CORNICHONS MIXÉES PUIS
+                AGRÉMENTÉE DE VINAIGRE DE VIN ROUGE
+              </p>
             </div>
 
             {/* Note */}

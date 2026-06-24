@@ -24,9 +24,12 @@ export function Contact() {
               <CardTitle>Téléphone</CardTitle>
               <CardDescription>Appelez-nous directement</CardDescription>
             </CardHeader>
-            <CardContent className="text-center">
-              <a href="tel:0622838645" className="text-xl font-semibold text-accent hover:underline">
+            <CardContent className="text-center space-y-2">
+              <a href="tel:0622838645" className="block text-xl font-semibold text-accent hover:underline">
                 06 22 83 86 45
+              </a>
+              <a href="tel:0608732075" className="block text-xl font-semibold text-accent hover:underline">
+                06 08 73 20 75
               </a>
             </CardContent>
           </Card>
@@ -41,10 +44,10 @@ export function Contact() {
             </CardHeader>
             <CardContent className="text-center">
               <a
-                href="mailto:contact@lendemique.fr"
+                href="mailto:lendemique01@outlook.com"
                 className="text-lg font-semibold text-accent hover:underline break-all"
               >
-                contact@lendemique.fr
+                lendemique01@outlook.com
               </a>
             </CardContent>
           </Card>
