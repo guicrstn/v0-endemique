@@ -63,8 +63,7 @@ export function Formules() {
           {/* Phrase steak ou fromage */}
           <div className="text-center bg-accent/10 rounded-xl p-6">
             <p className="text-base md:text-lg font-semibold text-pretty">
-              Steak ou fromage en supplément : Burger double à 19€ (L&apos;Endémique et Le Jurassique), Le Classique à
-              18€
+              Burger doublé : 16€ (L&apos;Endémique et Le Jurassique), Le Classique à 15€
             </p>
           </div>
 
