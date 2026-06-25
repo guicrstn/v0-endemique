@@ -13,6 +13,7 @@ export function Navigation() {
     { href: "/", label: "Accueil" },
     { href: "/notre-histoire", label: "Notre Histoire" },
     { href: "/notre-carte", label: "Notre Carte" },
+    { href: "/emplacements", label: "Emplacements" },
     { href: "/evenementiel", label: "Événementiel" },
     { href: "/galerie", label: "Galerie" },
     { href: "/contact", label: "Contact" },

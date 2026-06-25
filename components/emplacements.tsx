@@ -4,18 +4,21 @@ import { MapPin, Calendar } from "lucide-react"
 const emplacements = [
   {
     day: "Lundi soir",
-    place: "Hôtel du Moulin - Samognat",
+    place: "Hôtel du Moulin - Samognat (01)",
     detail: "À côté du golf - jusqu'à la fin de la période estivale",
+    mapQuery: "Hôtel du Moulin, Samognat, 01580",
   },
   {
     day: "Mercredi & Dimanche soir",
-    place: "Nantua",
+    place: "Nantua (01)",
     detail: "Parking du Marché des Affaires",
+    mapQuery: "Marché aux Affaires, Nantua, 01130",
   },
   {
     day: "Jeudi soir",
-    place: "Martignat",
+    place: "Martignat (01)",
     detail: "Parking Jardin de Julien",
+    mapQuery: "Jardin de Julien, Martignat, 01100",
   },
 ]
 
@@ -32,7 +35,7 @@ export function Emplacements() {
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {emplacements.map((emplacement, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow border-2">
+            <Card key={index} className="hover:shadow-lg transition-shadow border-2 overflow-hidden flex flex-col">
               <CardContent className="p-6 space-y-4">
                 <div className="flex items-center gap-2 text-accent">
                   <Calendar className="w-5 h-5" />
@@ -46,6 +49,17 @@ export function Emplacements() {
                   </div>
                 </div>
               </CardContent>
+              <div className="mt-auto">
+                <iframe
+                  title={`Carte ${emplacement.place}`}
+                  src={`https://www.google.com/maps?q=${encodeURIComponent(emplacement.mapQuery)}&output=embed`}
+                  width="100%"
+                  height="200"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full border-0"
+                />
+              </div>
             </Card>
           ))}
         </div>
