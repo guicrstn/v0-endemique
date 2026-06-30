@@ -28,7 +28,7 @@ export default function MentionsLegales() {
                 Food Truck - Burgers Artisanaux<br />
                 <br />
                 <strong className="text-foreground">Téléphone :</strong> 06 22 83 86 45<br />
-                <strong className="text-foreground">Email :</strong> contact@lendemique.fr
+                <strong className="text-foreground">Email :</strong> lendemique01@outlook.com
               </p>
             </div>
 
@@ -77,7 +77,7 @@ export default function MentionsLegales() {
                 Conformément à la loi « Informatique et Libertés » du 6 janvier 1978 modifiée et au Règlement Général sur la Protection des Données (RGPD), vous disposez d&apos;un droit d&apos;accès, de rectification, de suppression et d&apos;opposition aux données personnelles vous concernant.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                Pour exercer ces droits, vous pouvez nous contacter par email à l&apos;adresse : <a href="mailto:contact@lendemique.fr" className="text-accent hover:underline">contact@lendemique.fr</a>
+                Pour exercer ces droits, vous pouvez nous contacter par email à l&apos;adresse : <a href="mailto:lendemique01@outlook.com" className="text-accent hover:underline">lendemique01@outlook.com</a>
               </p>
             </div>
 

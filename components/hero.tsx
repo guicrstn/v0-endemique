@@ -18,39 +18,48 @@ export function Hero() {
         />
       </div>
 
-      <div className="container mx-auto px-4 py-20 relative z-10">
-        <div className="flex flex-col items-center text-center space-y-8">
-          {/* Logo */}
-          <div className="w-64 h-64 md:w-80 md:h-80 relative animate-fade-in">
-            <Image src="/logo.png" alt="L'Endémique Logo" fill className="object-contain" priority />
+      <div className="container mx-auto px-4 py-28 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Texte */}
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-8 order-2 lg:order-1">
+            <div className="space-y-4 max-w-2xl animate-fade-in-up">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
+                Des burgers qui prennent leur envol
+              </h1>
+              <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl text-pretty">
+                Food truck mobile pour vos événements et communes - Produits frais, locaux et fait maison
+              </p>
+            </div>
+
+            {/* CTA */}
+            <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up">
+              <Link href="/notre-carte">
+                <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8">
+                  Voir la Carte
+                </Button>
+              </Link>
+              <Link href="/evenementiel">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 bg-transparent"
+                >
+                  Événementiel
+                </Button>
+              </Link>
+            </div>
           </div>
 
-          {/* Tagline */}
-          <div className="space-y-4 max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
-              Des burgers qui prennent leur envol
-            </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto text-pretty">
-              Food truck mobile pour vos événements et communes - Produits frais, locaux et fait maison
-            </p>
-          </div>
-
-          {/* CTA */}
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up">
-            <Link href="/notre-carte">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8">
-                Voir la Carte
-              </Button>
-            </Link>
-            <Link href="/evenementiel">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 bg-transparent"
-              >
-                Événementiel
-              </Button>
-            </Link>
+          {/* Affiche */}
+          <div className="relative w-full max-w-sm mx-auto animate-fade-in order-1 lg:order-2">
+            <Image
+              src="/affiche-endemique.jpg"
+              alt="Affiche L'Endémique - Burgers gourmands et authentiques, produits locaux, événements, fait maison"
+              width={1040}
+              height={1500}
+              className="w-full h-auto rounded-xl shadow-2xl"
+              priority
+            />
           </div>
         </div>
       </div>
