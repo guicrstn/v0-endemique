@@ -35,12 +35,6 @@ export function Footer() {
                 Notre Histoire
               </Link>
               <Link
-                href="/notre-carte"
-                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
-              >
-                Notre Carte
-              </Link>
-              <Link
                 href="/evenementiel"
                 className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
               >

@@ -1,7 +1,5 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import { Beef } from "lucide-react"
-import Link from "next/link"
 
 const featuredBurgers = [
   {
@@ -56,17 +54,6 @@ export function Menu() {
                 </Card>
               ))}
             </div>
-          </div>
-
-          <div className="text-center space-y-6 pt-8">
-            <p className="text-lg text-muted-foreground">
-              Découvrez toutes nos formules avec frites et boissons, nos pains américains et notre menu enfant
-            </p>
-            <Link href="/notre-carte">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8">
-                Voir la Carte Complète
-              </Button>
-            </Link>
           </div>
         </div>
       </div>
