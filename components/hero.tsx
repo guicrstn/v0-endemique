@@ -33,17 +33,8 @@ export function Hero() {
 
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up">
-              <Link href="/notre-carte">
-                <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8">
-                  Voir la Carte
-                </Button>
-              </Link>
               <Link href="/evenementiel">
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 bg-transparent"
-                >
+                <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8">
                   Événementiel
                 </Button>
               </Link>
