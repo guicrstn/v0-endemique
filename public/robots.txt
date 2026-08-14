@@ -4,8 +4,11 @@
 User-agent: *
 Allow: /
 
+# Pages supprimées (à désindexer)
+Disallow: /notre-carte
+
+# Pages privées / techniques
+Disallow: /api/
+
 # Sitemap
 Sitemap: https://www.lendemique.fr/sitemap.xml
-
-# Disallow admin or private pages (if any)
-Disallow: /api/
