@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Star } from "lucide-react"
 
 export function AvisGoogle() {
-  const googleReviewsUrl = "https://www.google.com/search?q=L%27End%C3%A9mique+food+truck"
+  const googleReviewsUrl = "https://maps.app.goo.gl/9wG5gf8U6Stn7SSB9"
 
   return (
     <section className="py-20 bg-muted/30">
