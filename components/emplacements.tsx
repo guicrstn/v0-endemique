@@ -9,7 +9,7 @@ const emplacements = [
     mapQuery: "Hôtel du Moulin, Samognat, 01580",
   },
   {
-    day: "Mercredi soir & samedi matin",
+    day: "Samedi matin",
     place: "E-Monétique - Nantua (01)",
     detail: "1 rue Paul Painlevé",
     mapQuery: "1 Rue Paul Painlevé, 01130 Nantua, France",
