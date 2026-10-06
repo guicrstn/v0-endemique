@@ -5,14 +5,14 @@ const emplacements = [
   {
     day: "Lundi soir",
     place: "Hôtel du Moulin - Samognat (01)",
-    detail: "À côté du golf - jusqu'à la fin de la période estivale",
+    detail: "À côté du golf", 
     mapQuery: "Hôtel du Moulin, Samognat, 01580",
   },
   {
-    day: "Mercredi & Dimanche soir",
-    place: "Nantua (01)",
-    detail: "Parking du Marché des Affaires",
-    mapQuery: "Marché aux Affaires, Nantua, 01130",
+    day: "Mercredi soir & samedi matin",
+    place: "E-Monétique - Nantua (01)",
+    detail: "1 rue Paul Painlevé",
+    mapQuery: "1 Rue Paul Painlevé, 01130 Nantua, France",
   },
   {
     day: "Jeudi soir",
