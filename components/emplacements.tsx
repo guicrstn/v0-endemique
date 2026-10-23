@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { MapPin, Calendar } from "lucide-react"
 
@@ -32,6 +33,40 @@ export function Emplacements() {
             Retrouvez notre food truck chaque semaine près de chez vous
           </p>
         </div>
+
+        <Card className="mx-auto mb-12 max-w-5xl overflow-hidden border-2 border-accent bg-primary text-primary-foreground shadow-xl">
+          <div className="grid md:grid-cols-[1.1fr_1fr]">
+            <div className="relative min-h-64 md:min-h-[360px]">
+              <Image
+                src="/le-spot-arbent.jpg"
+                alt="Vue intérieure du bâtiment Le Spot, futur emplacement de L'Endémique à Arbent"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover"
+                priority
+              />
+            </div>
+            <div className="flex flex-col justify-center gap-5 p-6 md:p-10">
+              <span className="w-fit rounded-full bg-accent px-4 py-2 text-sm font-extrabold uppercase tracking-wider text-accent-foreground">
+                Bientôt
+              </span>
+              <div className="space-y-3">
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-foreground/70">
+                  Nouvel emplacement
+                </p>
+                <h3 className="text-3xl font-extrabold tracking-tight md:text-4xl">On arrive au Spot !</h3>
+                <p className="text-lg leading-relaxed text-primary-foreground/85">
+                  L&apos;Endémique s&apos;installera prochainement dans le bâtiment Le Spot, à Arbent, dans l&apos;Ain (01100).
+                  Nous avons hâte de vous y retrouver. Plus d&apos;informations très bientôt.
+                </p>
+              </div>
+              <div className="flex items-center gap-2 font-semibold text-primary-foreground">
+                <MapPin className="h-5 w-5 text-accent" aria-hidden="true" />
+                <span>Le Spot, Arbent (01100)</span>
+              </div>
+            </div>
+          </div>
+        </Card>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {emplacements.map((emplacement, index) => (
