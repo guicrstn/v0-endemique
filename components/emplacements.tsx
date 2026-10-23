@@ -56,8 +56,9 @@ export function Emplacements() {
                 </p>
                 <h3 className="text-3xl font-extrabold tracking-tight md:text-4xl">On arrive au Spot !</h3>
                 <p className="text-lg leading-relaxed text-primary-foreground/85">
-                  L&apos;Endémique s&apos;installera prochainement dans le bâtiment Le Spot, à Arbent, dans l&apos;Ain (01100).
-                  Nous avons hâte de vous y retrouver. Plus d&apos;informations très bientôt.
+                  L&apos;Endémique s&apos;installera prochainement dans le bâtiment Le Spot, au 8 rue du Marais,
+                  dernier local de gauche, à Arbent (01100). Nous avons hâte de vous y retrouver. Plus
+                  d&apos;informations très bientôt.
                 </p>
               </div>
               <div className="flex items-center gap-2 font-semibold text-primary-foreground">
